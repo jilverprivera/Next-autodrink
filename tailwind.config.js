@@ -15,7 +15,7 @@ module.exports = {
         secondary: "#FCDA69",
       },
       fontFamily: {
-        sans: ["Cairo", ...fontFamily.sans],
+        sans: ["Poppins", ...fontFamily.sans],
       },
     },
   },
