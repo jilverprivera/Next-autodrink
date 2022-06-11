@@ -2,19 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.image {
+  z-index: -1;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.cover-image {
+  background: rgba(0, 0, 0, 0.6);
 }
 
-* {
-  box-sizing: border-box;
+.principal {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 1) 75%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
